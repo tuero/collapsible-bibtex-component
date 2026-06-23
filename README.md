@@ -2,6 +2,22 @@
 
 Quartz v5 transformer plugin that wraps `bibtex` code blocks in a collapsible `<details>` block.
 
+## Demo
+
+For the following codeblock in your notes, it does the following:
+````
+```bibtex
+@inproceedings{tueroBOL26,
+  title     = {Structure-Induced Information for Rerooting {L}evin Tree Search},
+  author    = {Jake Tuero and Michael Buro and Laurent Orseau and Levi H. S. Lelis},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2026},
+}
+```
+````
+
+![](demo.gif)
+
 ## What It Does
 
 - detects rendered `bibtex` code blocks
